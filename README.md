@@ -4,4 +4,7 @@
 CMake组织
 
 
+对‘pthread_create’未定义的引用 clion
+https://blog.csdn.net/yyyerica/article/details/70169102
+
 
