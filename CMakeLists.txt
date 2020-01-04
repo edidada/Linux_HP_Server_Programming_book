@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
-project(book)
+project(linux_hp_book)
 
 set(CMAKE_CXX_STANDARD 11)
 

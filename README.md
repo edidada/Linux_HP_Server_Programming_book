@@ -115,6 +115,7 @@ int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struc
 
 
 14-3thread_atfork
+
 [对‘pthread_create’未定义的引用 clion](https://blog.csdn.net/yyyerica/article/details/70169102)
 
 17.1 tcpdump

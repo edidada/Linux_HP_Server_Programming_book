@@ -15,7 +15,7 @@ oobrecv先上传到192.168.58.3
 
 ```shell
 
-oobsend/cmake-build-debug/oobsend 192.168.58.3 54321
+oobsend 192.168.58.3 54321
 
 ```
 
