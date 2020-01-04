@@ -1,0 +1,5 @@
+add_executable(6-1testdup 6-1testdup.cpp)
+add_executable(6-2testwritev 6-2testwritev.cpp)
+add_executable(6-3testsendfile 6-3testsendfile.cpp)
+add_executable(6-4testsplice 6-4testsplice.cpp)
+add_executable(6-5testtee 6-5testtee.cpp)

@@ -1,0 +1,8 @@
+add_executable(5-3testlisten 5-3testlisten.cpp)
+add_executable(5-5testaccept 5-5testaccept.cpp)
+add_executable(5-6oobsend 5-6oobsend.cpp)
+add_executable(5-7oobrecv 5-7oobrecv.cpp)
+add_executable(5-9reuse_address 5-9reuse_address.cpp)
+add_executable(5-10set_send_buffer 5-10set_send_buffer.cpp)
+add_executable(5-11set_recv_buffer 5-11set_recv_buffer.cpp)
+add_executable(chap5_access_daytime access_daytime.cpp)

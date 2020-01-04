@@ -1,0 +1,1 @@
+add_executable(springsnail_main main.cpp log.cpp conn.cpp mgr.cpp fdwrapper.cpp)

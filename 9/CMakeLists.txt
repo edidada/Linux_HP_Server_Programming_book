@@ -1,0 +1,7 @@
+add_executable(9-1use_select 9-1use_select.cpp)
+add_executable(9-3mtlt 9-3mtlt.cpp)
+add_executable(9-4oneshot 9-4oneshot.cpp)
+add_executable(9-5unblockconnect 9-5unblockconnect.cpp)
+add_executable(9-6mytalk_client 9-6mytalk_client.cpp)
+add_executable(9-7mytalk_server 9-7mytalk_server.cpp)
+add_executable(9-8multi_port 9-8multi_port.cpp)
