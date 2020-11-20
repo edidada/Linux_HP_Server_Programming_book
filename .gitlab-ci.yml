@@ -40,29 +40,3 @@ build:
       # cache:
       #   paths:
       #     - "*.o"
-
-# run tests using the binary built before
-test:
-  stage: test
-  script:
-    - yum -y install gcc automake autoconf libtool make
-    - yum install gcc gcc-c++ -y
-    - yum install centos-release-scl -y
-    - yum install devtoolset-8 -y
-    - scl enable devtoolset-8 -- bash
-    - source /opt/rh/devtoolset-8/enable
-    - gcc -v
-    - which gcc
-    - make -v
-    - yum -y install wget
-    - wget --no-check-certificate https://cmake.org/files/v3.12/cmake-3.12.0-Linux-x86_64.tar.gz
-    - tar -xvf cmake-3.12.0-Linux-x86_64.tar.gz > /dev/null
-    - mv cmake-3.12.0-Linux-x86_64 cmake-install
-    - pwd_path=$(pwd)
-    - PATH=${pwd_path}/cmake-install:${pwd_path}/cmake-install/bin:$PATH
-    - mkdir -p build
-    - cd build
-    - cmake ..
-    - make
-    - ls
-    - pwd
